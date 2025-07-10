@@ -127,179 +127,95 @@
         </div>
       </nav>
 
-      <section class="header-container">
-        <img
-          class="profile-image"
-          src="assets/profile-image.svg"
-          alt=""
-        />
-        <h1>Hi I'm Franklin</h1>
-
-        <div class="content-text">
-          <h2>Building digital</h2>
-          <h2>products, brands, and experience.</h2>
-
-          <p>
-            A Frontend Developer and Visual Designer with experience in web
-            design, brand identity and product design.
-          </p>
-        </div>
-        <a
-          href="https://github.com/CommunityPro/portfolio-html"
-          class="btn btn-secondary"
-          target="_blank"
-          >Connect With Me</a
-        >
-      </section>
     </header>
 
-    <!-- Projects -->
-    <section id="projects" class="project-container container">
-      <div class="division"></div>
-      <div class="content-text">
-        <h2>Projects</h2>
-        <p>Check out some of my personal and paid projects</p>
+  <script>
+  const params = new URLSearchParams(window.location.search);
+  const id = params.get('id');
+  console.log('Project ID:', id.toString());
+
+  fetch('project-data.json')
+    .then(res => res.json())
+    .then(data => {
+      const project = data[id];
+
+      if (!project) {
+        document.body.innerHTML = '<h1>Project not found</h1>';
+        return;
+      }
+
+      // Fill in project title & subtitle
+      document.querySelector('.project-title h1').textContent = project.title;
+      document.querySelector('.project-subtitle h2').textContent = project.subtitle;
+
+      // Update video
+      const videoSource = document.querySelector('.project-video video source');
+      videoSource.src = project.video;
+      document.querySelector('.project-video video').load();
+
+      // Update description
+      document.querySelector('.project-description p').textContent = project.description;
+
+      // Update images
+      const imagesContainer = document.querySelector('.images-grid');
+      imagesContainer.innerHTML = ''; // Clear existing
+      project.images.forEach(img => {
+        const imageEl = document.createElement('img');
+        imageEl.src = img;
+
+        imageEl.style.width = '512px'; // Adjust width as needed
+        imageEl.style.height = 'auto'; // Maintain aspect ratio
+
+        imageEl.alt = 'Project Screenshot';
+        imagesContainer.appendChild(imageEl);
+      });
+
+    })
+    .catch(err => {
+      console.error('Error loading project data:', err);
+      document.body.innerHTML = '<h1>Failed to load project</h1>';
+    });
+</script>
+
+
+  <!-- Body -->
+  <!-- Project title -->
+  <section class="project-title">
+    <h1> Project name </h1>
+  </section>
+  <section class="project-subtitle">
+    <h2> Project subtitle </h2>
+  </section>
+
+  <section class="project-details">
+    <div class="container project-flex">
+      <!-- Video on the left -->
+      <div class="project-video">
+        <video width="100%" controls poster="assets/project-poster.png">
+          <source src="assets/project-demo.mp4" type="video/mp4" />
+          Your browser does not support the video tag.
+        </video>
       </div>
+      <!-- Description on the right -->
+      <div class="project-description">
+        <h3>About This Project</h3>
+        <p>
+          This is a brief description of the project. Explain the purpose, features, and technologies used. You can add more details as needed to showcase your work.
+        </p>
 
-      <article class="project">
-        <!-- Project 1 -->
-        <div class="card" onclick="window.location='project.html?id=project1';">
-          <div class="project-info">
-            <div class="project-bio">
-              <h3>Cots : PC and Mobile game</h3>
-              <p>Unity, C#, Game design, Kickstarter/Instagram/Twitter</p>
-            </div>
+      </div>
+    </div>
+  </section>
 
-            <div class="project-link">
-              <a href="#" target="_blank"><i class="fab fa-github"></i></a>
-              <a href="#" target="_blank"><i class="fas fa-globe"></i></a>
-            </div>
-          </div>
-        </div>
-
-        <!-- Project 2 -->
-        <div href="" class="card">
-          <div class="project-info">
-            <div class="project-bio">
-              <h3>Fast Orientable Aperiodic Asymetrical Ocean</h3>
-              <p>Godot, GDshader, R&D</p>
-            </div>
-
-            <div class="project-link">
-              <a href="#" target="_blank"><i class="fab fa-github"></i></a>
-              <a href="#" target="_blank"><i class="fas fa-globe"></i></a>
-            </div>
-          </div>
-        </div>
-
-        <!-- Porject 3 -->
-        <div href="" class="card">
-          <div class="project-info">
-            <div class="project-bio">
-              <h3>Fisheye Engine : Game Engine from scratch</h3>
-              <p>C++, OpenGL, GLSL, R&D</p>
-            </div>
-
-            <div class="project-link">
-              <a href="#" target="_blank"><i class="fab fa-github"></i></a>
-              <a href="#" target="_blank"><i class="fas fa-globe"></i></a>
-            </div>
-          </div>
-        </div>
-
-        <!-- Project 4 -->
-        <div href="" class="card">
-          <div class="project-info">
-            <div class="project-bio">
-              <h3>MAIgic Academy</h3>
-              <p>Godot, Multi-agent systems</p>
-            </div>
-
-            <div class="project-link">
-              <a href="#" target="_blank"><i class="fab fa-github"></i></a>
-              <a href="#" target="_blank"><i class="fas fa-globe"></i></a>
-            </div>
-          </div>
-        </div>
-
-        <!-- Project 5 -->
-        <div href="" class="card">
-          <div class="project-info">
-            <div class="project-bio">
-              <h3>AIgricultor</h3>
-              <p>Godot, Multi-agent system</p>
-            </div>
-
-            <div class="project-link">
-              <a href="#" target="_blank"><i class="fab fa-github"></i></a>
-              <a href="#" target="_blank"><i class="fas fa-globe"></i></a>
-            </div>
-          </div>
-        </div>
-
-        <!-- Project 6 -->
-        <div href="" class="card">
-          <div class="project-info">
-            <div class="project-bio">
-              <h3>HarMONEY : A color harmonisation software</h3>
-              <p>Python, OpenCV, R&D</p>
-            </div>
-
-            <div class="project-link">
-              <a href="#" target="_blank"><i class="fab fa-github"></i></a>
-              <a href="#" target="_blank"><i class="fas fa-globe"></i></a>
-            </div>
-          </div>
-        </div>
-
-        <!-- Project 7 -->
-        <div href="" class="card">
-          <div class="project-info">
-            <div class="project-bio">
-              <h3>Raytracer</h3>
-              <p>C++, OpenGL, GLSL</p>
-            </div>
-
-            <div class="project-link">
-              <a href="#" target="_blank"><i class="fab fa-github"></i></a>
-              <a href="#" target="_blank"><i class="fas fa-globe"></i></a>
-            </div>
-          </div>
-        </div>
-        
-        <!-- Project 8 -->
-        <div href="" class="card">
-          <div class="project-info">
-            <div class="project-bio">
-              <h3>Nokia Jam 6 : Trognon</h3>
-              <p>Godot</p>
-            </div>
-
-            <div class="project-link">
-              <a href="#" target="_blank"><i class="fab fa-github"></i></a>
-              <a href="#" target="_blank"><i class="fas fa-globe"></i></a>
-            </div>
-          </div>
-        </div>
-
-        <!-- Project 9 -->
-        <div href="" class="card">
-          <div class="project-info">
-            <div class="project-bio">
-              <h3>Imagine Jam 2025 : Crashlands</h3>
-              <p>Unity</p>
-            </div>
-
-            <div class="project-link">
-              <a href="#" target="_blank"><i class="fab fa-github"></i></a>
-              <a href="#" target="_blank"><i class="fas fa-globe"></i></a>
-            </div>
-          </div>
-        </div>
-      </article>
-
-
-    </section>
+    <!-- Images in a container below -->
+    <div class="images-container project-images">
+      <h3>Screenshots</h3>
+      <div class="images-grid">
+      <img src="assets/project/project-one.png" alt="Screenshot 1" />
+      <img src="assets/project/project-one.png" alt="Screenshot 2" />
+      <img src="assets/project/project-one.png" alt="Screenshot 3" />
+      </div>
+    </div>
 
     <footer id="footer">
       <div class="container">
@@ -335,6 +251,6 @@
         <p>Copyright &copy; Communitypro <span id="datee"></span>, All rights reserved</p>
       </div>
     </footer>
-    <script src="   js/script.js"></script>
+    <script src="js/script.js"></script>
   </body>
 </html>

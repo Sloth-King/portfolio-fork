@@ -1,0 +1,72 @@
+{
+  "project1": {
+    "title": "COTS : Take Your Destiny Into Your Own Wings",
+    "subtitle": "PC and Mobile Roguelike tower defense game",
+    "video": "videos/ai.mp4",
+    "description": "words n shi",
+    "tools": "Unity ; C# ; Kickstarter ; Instagram/Twitter",
+    "images": [
+        "assets/project/project-five.png",
+        "assets/project-details/raytrace/ptitfoot.png",
+        "assets/project/project-four.png",
+        "assets/project/project-three.png"
+    ]
+  },
+  "project2": {
+    "title": "Fast orientable asymetric, aperiodic ocean",
+    "subtitle": "Using textures in Godot",
+    "video": "videos/webapp.mp4",
+    "description": "Un projet universitaire fait dans un groupe de quatre. L'objectif du projet était de lire, comprendre et implementer la methode de génération d'oceans de N. Lutz et Al [2019] dans le moteur de jeu GODOT. Cet ocean est fait a partir d'une base de code implémentant la méthode de Tessendorf, et nous avons implémenté plusieurs nouvelles fonctionnalitées. Le pavage et mélange (Tiling and blending), l'orientation des vagues, le LEAN Mapping ainsi que certaines modifications de l'interface ainsi que des outils de debug.",
+    "tools": "Godot ; GDshader"
+  },
+    "project3": {
+    "title": "Fisheye Engine",
+    "subtitle": "Moteur de jeu \"from scratch\" en C++",
+    "video": "videos/ai.mp4",
+    "description": "",
+    "tools": "C++ ; OpenGl ; GLSL"
+  },
+    "project4": {
+    "title": "MAIge Academy",
+    "subtitle": "Système multi-agent avec stratégies",
+    "video": "videos/ai.mp4",
+    "description": "",
+    "tools": "Godot"
+  },
+    "project5": {
+    "title": "AIgricultor",
+    "subtitle": "Système multi-agent simple",
+    "video": "videos/ai.mp4",
+    "description": "",
+    "tools": "Godot"
+  },
+    "project6": {
+    "title": "HarMONEY",
+    "subtitle": "Logiciel d'harmonisation automatique ou manuelle de couleurs",
+    "video": "videos/ai.mp4",
+    "description": "",
+    "tools": "Python, OpenCV, R&D"
+  },
+    "project7": {
+    "title": "Raytracer",
+    "subtitle": "Raytracer basique fait en C++",
+    "video": "videos/ai.mp4",
+    "description": "",
+    "tools": "C++ ; OpenGl ; GLSL"
+  },
+    "project8": {
+    "title": "Nokia Jam 6 : The Adventures of Trognon",
+    "subtitle": "Platformeur 2D",
+    "video": "videos/ai.mp4",
+    "description": "",
+    "tools": "Godot"
+  },
+    "project9": {
+    "title": "Imagine Jam 2025 : CrashLands",
+    "subtitle": "Short 2D RPG",
+    "video": "videos/ai.mp4",
+    "description": "",
+    "tools": " Unity"
+  }
+
+}
