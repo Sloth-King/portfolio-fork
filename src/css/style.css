@@ -361,7 +361,7 @@ body {
 
 .project-video {
   width : 50%;
-  height: 500px;
+  height: 250px;
   margin: 2rem auto;
   display: block;
 }
@@ -375,7 +375,7 @@ body {
 
 .project-video,
 .project-description {
-  flex: 1 1 45%; /* grow, shrink, preferred width */
+  flex: 1 1 45%; 
 }
 
 .project-details {
