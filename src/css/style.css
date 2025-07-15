@@ -16,7 +16,7 @@
   --text-color-two: #ffffff;
   --text-color-three: #444444;
   --bg-secondary: #000000;
-  --card-background: #f4f4f4;
+  --card-background: #e7e6e6;
   --bg-secondary-two: #111111;
 
   --shadow: 0 10px 40px rgba(0, 0, 0, 0.2);
@@ -360,7 +360,7 @@ body {
 }
 
 .project-video {
-  width : 50%;
+  width : 40%;
   height: 250px;
   margin: 2rem auto;
   display: block;
@@ -414,5 +414,18 @@ body {
   object-fit: cover; 
   border-radius: 8px; /* Rounded corners */
   display: block;
+}
+
+.contact{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 2rem 1rem;
+  background: var(--card-background);
+  border-radius: 8px;
+  box-shadow: var(--shadow);
+  max-width: 500px;
+  margin: 2rem auto;
 }
 

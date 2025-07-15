@@ -2,71 +2,201 @@
   "project1": {
     "title": "COTS : Take Your Destiny Into Your Own Wings",
     "subtitle": "PC and Mobile Roguelike tower defense game",
-    "video": "videos/ai.mp4",
+    "video": "https://www.youtube.com/watch?v=kdhfA9q8cNI",
     "description": "words n shi",
     "tools": "Unity ; C# ; Kickstarter ; Instagram/Twitter",
+    "link-titles":[
+      "Steam",
+      "Kickstarter",
+      "Instagram"
+    ],
+    "links": [
+      "https://store.steampowered.com/app/3687890/COTS/",
+      "https://www.kickstarter.com/projects/plampstudio/cots-take-your-destiny-into-your-own-wings?ref=43f7de",
+      "https://www.instagram.com/cots_game/"
+    ],
     "images": [
-        "assets/project/project-five.png",
-        "assets/project-details/raytrace/ptitfoot.png",
-        "assets/project/project-four.png",
-        "assets/project/project-three.png"
+        "assets/project-details/cots/bigbattle.webp",
+        "assets/project-details/cots/cards.webp",
+        "assets/project-details/cots/choices.webp",
+        "assets/project-details/cots/strategy.webp"
     ]
   },
+
   "project2": {
     "title": "Fast orientable asymetric, aperiodic ocean",
     "subtitle": "Using textures in Godot",
-    "video": "videos/webapp.mp4",
+    "video": "https://youtu.be/D4zUmNnRCB4",
     "description": "Un projet universitaire fait dans un groupe de quatre. L'objectif du projet était de lire, comprendre et implementer la methode de génération d'oceans de N. Lutz et Al [2019] dans le moteur de jeu GODOT. Cet ocean est fait a partir d'une base de code implémentant la méthode de Tessendorf, et nous avons implémenté plusieurs nouvelles fonctionnalitées. Le pavage et mélange (Tiling and blending), l'orientation des vagues, le LEAN Mapping ainsi que certaines modifications de l'interface ainsi que des outils de debug.",
-    "tools": "Godot ; GDshader"
+    "tools": "Godot ; GDshader",
+    "link-titles":[
+      "Github",
+      "Article implémenté"
+    ],
+    "links": [
+      "https://github.com/RTheoGH/TER-Ocean",
+      "https://dl.acm.org/doi/10.1145/3675388"
+    ],
+    "images": [
+      "assets/project-details/ocean/tb.png",
+      "assets/project-details/ocean/image2_leanfinal.png",
+      "assets/project-details/ocean/flow3.png",
+      "assets/project-details/ocean/flow4.png"
+    ]
   },
+
     "project3": {
     "title": "Fisheye Engine",
     "subtitle": "Moteur de jeu \"from scratch\" en C++",
-    "video": "videos/ai.mp4",
+    "video": "https://youtu.be/neiFw3aLmls",
     "description": "",
-    "tools": "C++ ; OpenGl ; GLSL"
+    "tools": "C++ ; OpenGl ; GLSL",
+    "link-titles":[
+      "Github"
+    ],
+    "links": [
+      "https://github.com/Sloth-King/MoteurDeJeu/tree/Engine"
+    ],
+    "images": [
+      "assets/project-details/fisheye/game.webp"
+    ]
   },
+
     "project4": {
     "title": "MAIge Academy",
     "subtitle": "Système multi-agent avec stratégies",
-    "video": "videos/ai.mp4",
+    "video": "https://youtube.com/shorts/YK8yBZfBstk?feature=share",
     "description": "",
-    "tools": "Godot"
+    "tools": "Godot",
+    "link-titles":[
+      "Itch",
+      "Github"],
+    "links": [
+      "https://ohhnyx.itch.io/maige-academy",
+      "https://github.com/binaryHips/MAIgeAcademy"
+    ],
+    "images": [
+      "assets/project-details/maige/snow.png",
+      "assets/project-details/maige/recess3.png",
+      "assets/project-details/maige/recessscore.png",
+      "assets/project-details/maige/LevelSelect.png",
+      "assets/project-details/maige/outside2.png"
+    ]
   },
+
     "project5": {
     "title": "AIgricultor",
     "subtitle": "Système multi-agent simple",
-    "video": "videos/ai.mp4",
+    "video": "https://youtu.be/c0CstpRKJa4",
     "description": "",
-    "tools": "Godot"
+    "tools": "Godot",
+    "link-titles":[
+      "Itch",
+      "Github"
+    ],
+    "links": [
+      "https://ohhnyx.itch.io/aigricultor",
+      "https://github.com/VigKillian/AIgricultor"
+    ],
+    "images": [
+      "assets/project-details/aigricultor/fewsheepnight.png",
+      "assets/project-details/aigricultor/manysheep.png",
+      "assets/project-details/aigricultor/MainMenu.jpg",
+      "assets/project-details/aigricultor/end.png"
+    ]
   },
+
     "project6": {
     "title": "HarMONEY",
     "subtitle": "Logiciel d'harmonisation automatique ou manuelle de couleurs",
-    "video": "videos/ai.mp4",
+    "video": "https://youtu.be/qKjq0s50vBc",
     "description": "",
-    "tools": "Python, OpenCV, R&D"
+    "tools": "Python, OpenCV, R&D",
+    "link-titles":[
+      "Github",
+      "Article implémenté 1",
+      "Article implémenté 2" 
+    ],
+    "links": [
+      "https://github.com/Victor-ONIC/hai804-809",
+      "https://dl.acm.org/doi/10.1145/1141911.1141933",
+      "https://www.researchgate.net/publication/324218409_Palette-based_image_decomposition_harmonization_and_color_transfer"
+    ],
+    "images": [
+      "assets/project-details/harmoney/combined.png",
+      "assets/project-details/harmoney/combined(1).png",
+      "assets/project-details/harmoney/combined(2).png",
+      "assets/project-details/harmoney/combined(3).png",
+      "assets/project-details/harmoney/combined(4).png"
+    ]
   },
+
     "project7": {
     "title": "Raytracer",
     "subtitle": "Raytracer basique fait en C++",
-    "video": "videos/ai.mp4",
+    "video": "assets/project-details/raytrace/ptitfoot.png",
     "description": "",
-    "tools": "C++ ; OpenGl ; GLSL"
+    "tools": "C++ ; OpenGl ; GLSL",
+    "link-titles":[
+      "Github"
+    ],
+    "links": [
+      "https://github.com/Sloth-King/RayTraceProject/tree/main"
+    ],
+    "images": [
+      "assets/project-details/raytrace/glass1.png",
+      "assets/project-details/raytrace/meteorshower2.png",
+      "assets/project-details/raytrace/softShadows128.png",
+      "assets/project-details/raytrace/srefract.png",
+      "assets/project-details/raytrace/MIRRORS.png",
+      "assets/project-details/raytrace/glass2.png",
+      "assets/project-details/raytrace/ptitfoot.png"
+    ]
   },
+
     "project8": {
     "title": "Nokia Jam 6 : The Adventures of Trognon",
     "subtitle": "Platformeur 2D",
-    "video": "videos/ai.mp4",
+    "video": "https://youtu.be/rghc6frLzWc",
     "description": "",
-    "tools": "Godot"
+    "tools": "Godot",
+    "link-titles":[
+      "Itch",
+      "Codeberg (git)"
+    ],
+    "links": [
+      "https://shugarskull.itch.io/the-adventures-of-trognon",
+      "https://codeberg.org/ShugarSkull/NokiaJam6"
+    ],
+    "images": [
+      "assets/project-details/trognon/FreezeGif.gif",
+      "assets/project-details/trognon/spike.jpg",
+      "assets/project-details/trognon/TrognonCanon.jpg",
+      "assets/project-details/trognon/TrognonThumbnail.jpg",
+      "assets/project-details/trognon/Level4.jpg",
+      "assets/project-details/trognon/stop.jpg"
+    ]
   },
+
     "project9": {
     "title": "Imagine Jam 2025 : CrashLands",
     "subtitle": "Short 2D RPG",
-    "video": "videos/ai.mp4",
+    "video": "https://youtu.be/c1RdtOEWiqY",
     "description": "",
-    "tools": " Unity"
+    "tools": " Unity",
+    "link-titles":[
+      "Itch",
+      "Github"
+    ],
+    "links": [
+      "https://thedrewman.itch.io/crashlands",
+      "https://github.com/Sloth-King/ImagineJam24"
+    ],
+    "images": [
+      "assets/project-details/crashlands/thumbnail.jpg",
+      "assets/project-details/crashlands/chillin.jpg",
+      "assets/project-details/crashlands/fight.jpg"
+    ]
   }
 
 }
