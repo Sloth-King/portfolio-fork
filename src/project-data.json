@@ -3,7 +3,7 @@
     "title": "COTS : Take Your Destiny Into Your Own Wings",
     "subtitle": "PC and Mobile Roguelike tower defense game",
     "video": "https://www.youtube.com/watch?v=kdhfA9q8cNI",
-    "description": "A Roguelike tower defense game made with Unity. This game was designed to be both mobile and PC compatible. This project is being made in a team of 6, with 3 artists and 3 developers, it is undoubtedly my largest project. Being a small team, I’ve had to work on various different tasks such as gameplay development, bug fixing, refactoring, code cleaning, UI/UX, game design, marketing and communications, etc… The project is not yet released (with an expected release January 2026), so no git or playable version is available today. ",
+    "description": "A roguelike tower defense game made with Unity. This game was designed to be both mobile and PC compatible. This project is being made in a team of 6, with 3 artists and 3 developers, it is undoubtedly my largest project. Being a small team, I’ve had to work on various different tasks such as gameplay development, bug fixing, refactoring, code cleaning, UI/UX, game design, marketing and communications. COTS is not yet released, with an expected release January 2026, so no git or playable version is available today. ",
     "tools": "Unity ; C# ; Kickstarter ; Instagram/Twitter",
     "link-titles":[
       "Steam",
@@ -24,14 +24,14 @@
   },
 
   "project2": {
-    "title": "Fast orientable asymetric, aperiodic ocean",
-    "subtitle": "Using textures in Godot",
+    "title": "Fast, orientable, aperiodic ocean",
+    "subtitle": "synthesis using tiling and blending in Godot",
     "video": "https://youtu.be/D4zUmNnRCB4",
-    "description": "A study and research project done in a group of four for the first year of our masters degree. This project was an implementation of the work by N. Lutz et Al. [2019] describing the generation of oceans with shaders using Tiling and blending.(view “Implemented Paper” button for the source). Our work consisted of understanding and implementing this work into godot, more specifically with gdshader and glsl. Our work includes ocean generation using Linear Tiling and Blending, orientable oceans with flow maps, Lean Mapping (specular light dampening, not perfectly implemented), and many different debug tools made in godot to help complete the project.",
+    "description": "A study and research project for the first year of my masters degree in a group of four. This project was an implementation of the work by N. Lutz et Al. [2019] describing the generation of oceans with shaders using tiling and blending.(view “Implemented Paper” button for the source). Our work consisted of understanding and implementing this work into Godot, more specifically with GdShader and GLSL. Our work includes ocean generation using tinear tiling and Blending, orientable oceans with flow maps, LEAN mapping (specular light dampening, not perfectly implemented), and many different debug tools made in Godot to help complete the project.",
     "tools": "Godot ; GDshader",
     "link-titles":[
       "Github",
-      "Article implémenté"
+      "Article"
     ],
     "links": [
       "https://github.com/RTheoGH/TER-Ocean",
@@ -47,9 +47,9 @@
 
     "project3": {
     "title": "Fisheye Engine",
-    "subtitle": "Moteur de jeu \"from scratch\" en C++",
+    "subtitle": "Game engine \"from scratch\" in C++",
     "video": "https://youtu.be/neiFw3aLmls",
-    "description": "Projet universitaire de trois mois en binôme avec pour objectif de créer un moteur de jeu basé sur openGL. Notre projet implémente, entre autres, du rendu différé, un moteur physique presque complet ainsi qu'un système d'interactions utilisateur. Une attention toute particulière a été apportée à l'expérience des développeurs de jeux, avec une architecture de code intuitive et sécuritaire utilisant la puissance d'expression du C++ moderne.",
+    "description": "Three-month university project done in pairs with the objective of creating a game engine based on openGL. Our project implements, among other things, deferred rendering, an almost complete physics engine and a user interaction system. Particular attention has been paid to the game developer experience, with an intuitive and secure code architecture using the expressive power of modern C++.",
     "tools": "C++ ; OpenGl ; GLSL",
     "link-titles":[
       "Github"
@@ -64,9 +64,9 @@
 
     "project4": {
     "title": "MAIge Academy",
-    "subtitle": "Système multi-agent avec stratégies",
+    "subtitle": "Advanced multi-agent system with strategies in Godot",
     "video": "https://youtu.be/74uu5qPg5co",
-    "description": "A month long four person university project made for a multi agent systems course using Godot. This project implements relatively advanced agents (student and teacher) with each boasting several strategies and responses. The teacher has multiple spells that are used in different conditions (ie number of students, range, etc..) and the students have multiple different strategies to escape the teacher that can be chosen in the game’s menu (ie go as far from the teacher as possible, go for the closest candy always, go alone, go in pairs…). There are no player controls, and it is available to play on itch.",
+    "description": "A month long four person university project made for a multi agent systems course using Godot. This project implements relatively advanced agents (student and teacher) with each boasting several strategies and responses. The teacher has multiple spells that are used in different conditions (ie number of students, range, etc..) and the students have multiple different strategies to escape the teacher that can be chosen in the game’s menu (ie go as far from the teacher as possible, go for the closest candy always, go alone, go in pairs…). There are no player controls, and it is available to play on Itch.",
     "tools": "Godot",
     "link-titles":[
       "Itch",
@@ -86,9 +86,9 @@
 
     "project5": {
     "title": "AIgricultor",
-    "subtitle": "Système multi-agent simple",
+    "subtitle": "Simple multi agent system in Godot",
     "video": "https://youtu.be/c0CstpRKJa4",
-    "description": "A month long university project made for a multi agent systems course. This project implements two simple agents (dog and sheep) that react to changes in the environment, in our case, the dog will react to any sheep escaping the enclosure and push them back in, and the sheep will try to escape when the dog isn’t around. This project was made in a group of 4 using the Godot engine. There are no player controls, and it is available to play on itch.",
+    "description": "A month long university project made for a multi agent systems course. This project implements two simple agents (dog and sheep) that react to changes in the environment, in our case, the dog will react to any sheep escaping the enclosure and push them back in, and the sheep will try to escape when the dog isn’t around. This project was made in a group of 4 using the Godot engine. There are no player controls, and it is available to play on Itch.",
     "tools": "Godot",
     "link-titles":[
       "Itch",
@@ -108,14 +108,14 @@
 
     "project6": {
     "title": "HarMONEY",
-    "subtitle": "Logiciel d'harmonisation automatique ou manuelle de couleurs",
+    "subtitle": "Automatic or manual color harmonisation software",
     "video": "https://youtu.be/qKjq0s50vBc",
-    "description": "A research project for an image processing course that consisted of making a state of the art on the subject of color harmonization, and implementing different algorithms described in scientific papers. Color harmonization means to choose an image, a harmonic template (on the color wheel), and then  to move all the colors to reach the closest color in that harmony. It was a 3-person project, done in python and mainly using the OpenCV library for image treatment. \n (The video is a comedic presentation of the project and it is in french.)",
+    "description": "A research project for an image processing course that consisted of making a state of the art on the subject of color harmonization, and implementing different algorithms described in scientific papers. Color harmonization means to choose an image, a harmonic template (on the color wheel), and then  to move all the colors to reach the closest color in that harmony. It was a 3-person project, done in Python and mainly using the OpenCV library for image treatment. \n (The video is a comedic presentation of the project and it is in french.)",
     "tools": "Python, OpenCV, R&D",
     "link-titles":[
       "Github",
-      "Article implémenté 1",
-      "Article implémenté 2" 
+      "Article 1",
+      "Article 2" 
     ],
     "links": [
       "https://github.com/Victor-ONIC/hai804-809",
@@ -133,9 +133,9 @@
 
     "project7": {
     "title": "Raytracer",
-    "subtitle": "Raytracer basique fait en C++",
+    "subtitle": "Basic Raytracer made in C++",
     "video": "assets/project-details/raytrace/ptitfoot.png",
-    "description": " A basic OpenGL C++ Raytracer made for a 3D programming course. My project includes compatibility with simple shapes like cubes and spheres, and can compute triangle intersections, which, using a KD-Tree structure to accelerate, can compute more advanced meshes. This project also includes a simple Phong Shader, simulates reflection (ie mirrors), refraction (ie glass), soft shadows (or hard shadows for faster computation), and a basic blur effect (for spheres only due to lack of time).",
+    "description": " A basic OpenGL C++ Raytracer made for a 3D programming course. My project includes compatibility with simple shapes like cubes and spheres, and can compute triangle intersections, which, using a KD-Tree structure to accelerate, allowing compatibility with more advanced meshes. This project also includes a simple Phong Shader, simulates reflection (ie mirrors), refraction (ie glass), soft shadows (or hard shadows for faster computation), and a basic motion blur effect for spheres.",
     "tools": "C++ ; OpenGl ; GLSL",
     "link-titles":[
       "Github"
@@ -156,9 +156,9 @@
 
     "project8": {
     "title": "Nokia Jam 6 : The Adventures of Trognon",
-    "subtitle": "Platformeur 2D",
+    "subtitle": "2D Platformer",
     "video": "https://youtu.be/rghc6frLzWc",
-    "description": "This was my first ever game jam, as well as my first real experience with Godot and game engines in general. It was a jam that, with a colleague, we only had 1.5 days to work on. It is a simple platformer with the constraint of being able to run on an old nokia phone (limited colors, resolution, sounds…). The player must collect keys to open doors, and loses if they move when the timer hits FREEZE!, or when in contact with spikes or cannon balls. The game is available to play on itch.",
+    "description": "This was my first ever game jam, as well as my first real experience with Godot and game engines in general. The work was done in pairs and lasted only a day and a half, it is a simple platformer with the constraint of being able to run on an old Nokia phone (limited colors, resolution, sounds, etc…). The player must collect keys to open doors, and loses if they move when the timer hits FREEZE!, or when in contact with spikes or cannon balls. The game is available to play on Itch.",
     "tools": "Godot",
     "link-titles":[
       "Itch",
@@ -182,7 +182,7 @@
     "title": "Imagine Jam 2025 : CrashLands",
     "subtitle": "Short 2D RPG",
     "video": "https://youtu.be/c1RdtOEWiqY",
-    "description": " A 1.5 day game jam project done in unity. This project is a simple RPG where the objective is to reconstruct a ship to leave the planet we crashed on. The project includes basic combat with dice rolls, walking around and picking up objects.",
+    "description": " A 1.5 day game jam project done in Unity. This project is a simple RPG where the objective is to reconstruct a ship to leave the planet we crashed on. The project includes basic combat with dice rolls, walking around and picking up objects.",
     "tools": " Unity",
     "link-titles":[
       "Itch",
